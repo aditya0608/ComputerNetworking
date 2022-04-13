@@ -1,2 +1,84 @@
 COMPUTER NETWORKING NOTES
 --------------------------------------------------------
+
+NETWORK --> connection of devices 
+----------------------------------------------------
+
+TOPOLOGIES-->Arranging and optimizing networks
+-----------------------------------------------------
+
+#1 BUS TOPOLOGY
+       
+      A 
+      |
+------------------------
+|                  |
+B                   C
+
+Take a wire and connect everyone to this Eg: If A needs to send to B A puts into the wire 
+It should be bidirectional ->Equivalent to large table where everyone puts their objects/data.
+
+ADVANTAGES
+Adding devices is easier
+If individual devices fail connection is not interrupted
+Cheap
+
+DISADVANTAGE
+Data security as data can be accesible by all
+SPOF if cable collapses
+High cable traffic /Bandwidth limitations
+
+#2 RING TOPOLOGY
+
+Unidirectional works here but it is not preferable.
+Interconnected devices in a ring 
+A token is issued to the node sharing the resource not all devices transmit data all at once 
+
+ADVANTAGES
+
+Cheap
+Congestion is not purely dependant on number of nodes as adding nodes will also lead to addition of wires
+
+DISADVANTAGES
+
+One node fails evrything fails,same with the cable failure 
+Data security at risk as data will have to travel in a circle 
+Extension id difficult
+
+#3 START TOPOLOGY
+
+Create a hub and connet everything to this hub
+Hub is a smart device can manage connections
+If nodes increase increase the number of hubs and connect the hubs together
+
+ADVANTAGES
+
+If a network node fails it's tolerable
+Easy to extend
+Secure as nodes cannot track data of another devices
+
+DISADVANTAGES
+
+SPOF is the hub
+Expensive because of the hub
+
+#4 MESH TOPOLOGY
+
+Connect evrything to evrything
+Intuituive equivalent is whatsapp
+
+ADVANTAGES
+
+Easy to detect failures between nodes as they are connected one on one and not dependant on other nodes
+Fault tolerant
+Security
+Fast
+
+DISADVANTAGES
+
+Expensive because of large wires
+
+
+
+
+
